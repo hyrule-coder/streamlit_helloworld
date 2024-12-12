@@ -9,7 +9,8 @@
 python3 -m venv ENV
 . ENV/bin/activate
 pip install streamlit
-pip install langchain langchain-openai openai python-dotenv
+pip install langchain langchain-openai langchain-community openai python-dotenv
+pip install duckduckgo-search wikipedia
 ```
 
 ## .envファイル
